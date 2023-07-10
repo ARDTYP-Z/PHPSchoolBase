@@ -1,0 +1,42 @@
+.information_right {
+    font-size: 36pt;
+    color: #fad0a0;
+    background-color: #565c6b;
+    padding: 5px;
+    border-radius: 10px;
+}
+.information_right:hover {
+    background-color: #384056;
+}
+.information_left {
+    font-size: 36pt;
+    color: #fad0a0;
+    background-color: #565c6b;
+    padding: 5px;
+    border-radius: 10px;
+}
+.information_left:hover {
+    background-color: #384056;
+}
+.form_to_center {
+    background-color: #404656;
+    margin: 0 80px;
+    border-radius: 10px
+}
+.form_to_center:hover {
+    background-color: #2d364d;
+}
+.form_left {
+    background-color: #404656;
+}
+.form_left:hover {
+    background-color: #2d364d;
+}
+.form_right {
+    background-color: #404656;
+    text-align: left;
+    float: right
+}
+.form_right:hover {
+    background-color: #2d364d;
+}

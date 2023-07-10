@@ -1,0 +1,30 @@
+.h2 {
+    font-family: "Bodoni MT", cursive;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 20px auto;
+    transition: 1s;
+}
+.h2:hover {
+    transform: scale(1.1);
+    background-color: #6b758d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.h3 {
+    font-family: "Bodoni MT", cursive;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 20px auto;
+    transition: 1s;
+}
+.h3:hover {
+    transform: scale(1.1);
+    background-color: #6b758d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}

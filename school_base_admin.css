@@ -1,0 +1,40 @@
+.delete_base_paragraph {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 40px;
+    width: 1000px;
+    margin: 20px auto;
+    transition: 1s;
+}
+.delete_base_paragraph:hover {
+    transform: scale(1.1);
+    background-color: #6b758d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.delete_base {
+    font-size: 30px;
+    background-color: #3c455d;
+    display: block;
+    margin: auto;
+}
+.input_first_button {
+    display: flex;
+    margin: 15px auto;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_first_button:hover {
+    background-color: #4f5a77;
+}
+.input_second_button {
+    display: flex;
+    margin: 15px auto;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_second_button:hover {
+    background-color: #4f5a77;
+}

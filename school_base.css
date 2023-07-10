@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(to right, #3E3F48FF, #282C3BFF);
+}
+h1 {
+    font-family: "Bodoni MT", cursive;
+    text-align: center;
+    font-size: 50px;
+    transition: 1s;
+}
+h1:hover {
+    color: #fad0a0;
+}
+h2 {
+    font-family: "Bodoni MT", cursive;
+    text-align: center;
+    font-size: 45px;
+}
+h3 {
+    font-family: "Bodoni MT", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 40px;
+    transition: 1s;
+    width: 1000px;
+    margin: 20px auto;
+}
+.paragraph:hover {
+    transform: scale(1.1);
+    background-color: #6b758d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.form {
+    background-color: #565c6b;
+    width: 1200px;
+    padding: 5px 10px;
+    font-size: 40px;
+    margin: auto auto 40px auto;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.form:hover {
+    transform: scale(1.1);
+    background-color: #6b758d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.form_to_center {
+    display: flex;
+}
+.form_left {
+    padding: 5px;
+    width: 600px;
+    display: block;
+}
+.form_right {
+    padding: 5px;
+    width: 600px;
+    text-align: right;
+    display: block;
+}
+.input {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    color: grey;
+    box-sizing: border-box;
+}
+.input_color, textarea {
+    color: #fad0a0;
+}
+.input_color::placeholder, textarea::placeholder {
+    color: gray;
+}
+.input:focus,
+.input_color {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #fad0a0;
+}
+.input_buttons {
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+table {
+    border: 1px solid grey;
+    background-color: #565c6b;
+    color: #fad0a0;
+    font-size: 30px;
+    margin: auto;
+}
+td {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+    font-size: 23px;
+}
+th {
+    border: 1px solid grey;
+    padding: 5px;
+    font-size: 25px;
+}
+.error_server {
+    font-family: Cambria, monospace;
+    text-align: left;
+    font-size: 35px;
+    color: #420505;
+}
+.error {
+     font-family: "Times New Roman", serif ;
+     text-align: center;
+     font-size: 30px;
+     color: red;
+ }
+.good {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}

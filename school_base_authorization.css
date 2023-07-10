@@ -1,0 +1,30 @@
+.input_first_button {
+    margin: 0 0 0 450px;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_first_button:hover {
+    background-color: #4f5a77;
+}
+.input_second_button {
+    margin: 0 0 0 50px;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_second_button:hover {
+    background-color: #4f5a77;
+}
+.error_auntification {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+.good_auntification {
+    font-family: "Times New Roman", serif ;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}

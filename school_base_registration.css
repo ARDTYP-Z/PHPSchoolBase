@@ -1,0 +1,74 @@
+.input_color_select, textarea {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #fad0a0;
+}
+.input_color_select::placeholder, textarea::placeholder {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    color: grey;
+    box-sizing: border-box;
+}
+select.input:reset {
+    color: grey;
+}
+.input_color_date {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    color: grey;
+    box-sizing: border-box;
+}
+.input_students_color_date:valid {
+    background-color: #272c38;
+    font-size: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    width: 510px;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #fad0a0;
+}
+.input_first_button {
+    margin: 0 0 0 400px;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_first_button:hover {
+    background-color: #4f5a77;
+}
+.input_second_button {
+    margin: 0 0 0 50px;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_second_button:hover {
+    background-color: #4f5a77;
+}
+.input_third_button {
+    margin: 0 0 0 50px;
+    font-size: 30px;
+    background-color: #3c455d;
+    border-radius: 5px;
+}
+.input_third_button:hover {
+    background-color: #4f5a77;
+}
